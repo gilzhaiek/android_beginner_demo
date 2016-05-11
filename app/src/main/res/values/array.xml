@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="news_titles">
+        <item>News Title 1</item>
+        <item>News Title 2</item>
+        <item>News Title 3</item>
+    </string-array>
+    <string-array name="news_details">
+        <item>News Details 1</item>
+        <item>News Details 2</item>
+        <item>News Details 3</item>
+    </string-array>
+</resources>

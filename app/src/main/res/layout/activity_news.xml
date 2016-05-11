@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="horizontal"
+    tools:context="tech.eightman.beginnerdemo.NewsActivity">
+
+    <FrameLayout
+        android:id="@+id/news_titles_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/news_details_frame"
+        android:layout_width="0px"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
