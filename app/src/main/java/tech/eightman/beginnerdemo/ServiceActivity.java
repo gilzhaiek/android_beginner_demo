@@ -24,7 +24,7 @@ public class ServiceActivity extends AppCompatActivity implements ServiceConnect
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_service);
-
+        
         mRandomizeButton = (Button)findViewById(R.id.getRandomNumButton);
         mRandomizeButton.setEnabled(false);
         mRandomizeButton.setOnClickListener(new View.OnClickListener() {
