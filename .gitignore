@@ -2,11 +2,12 @@
 *.apk
 *.ap_
 
-# Files for the Dalvik VM
-*.dex
-
-# Java class files
-*.class
+# Android Studio
+*.iml
+.gradle
+.idea/workspace.xml
+.idea/libraries
+.idea/misc.xml
 
 # Generated files
 bin/
