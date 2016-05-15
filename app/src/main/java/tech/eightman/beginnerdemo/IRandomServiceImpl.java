@@ -6,12 +6,12 @@ import java.util.Random;
 
 public class IRandomServiceImpl extends IRandomService.Stub {
     @Override
-    public int getRandomInt(int min, int max) throws RemoteException {
-        if(max < min) {
-            return min;
+    public int getRandomInt(int from, int to) throws RemoteException {
+        if(to < from) {
+            return from;
         }
 
         Random rand = new Random();
-        return rand.nextInt(max-min+1)+min;
+        return rand.nextInt(to-from+1)+from;
     }
 }
